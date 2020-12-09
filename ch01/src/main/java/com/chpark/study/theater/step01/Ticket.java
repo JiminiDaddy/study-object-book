@@ -7,17 +7,14 @@ package com.chpark.study.theater.step01;
  * Time : 2:03 AM
  */
 
-/**
- * 티켓
- */
-public class Ticket {
+class Ticket {
     private final Long fee;       // 가격
 
-    public Ticket(Long fee) {
+    Ticket(Long fee) {
         this.fee = fee;
     }
 
-    public Long getFee() {
+    Long getFee() {
         return fee;
     }
 }

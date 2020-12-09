@@ -12,9 +12,9 @@ import java.time.LocalDateTime;
  * Time : 2:20 AM
  */
 
-public class TheaterTest {
+class TheaterTest {
     @Test
-    public void 티켓판매() {
+    void 티켓판매() {
         Bag onlyAmountBag  = new Bag(10000L);
         Audience audience1 = new Audience(onlyAmountBag);
         Invitation invitation = new Invitation(LocalDateTime.now());

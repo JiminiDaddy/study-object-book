@@ -7,17 +7,14 @@ package com.chpark.study.theater.step01;
  * Time : 2:16 AM
  */
 
-/**
- * 티켓 판매원
- */
-public class TicketSeller {
+class TicketSeller {
     private TicketOffice ticketOffice;
 
-    public TicketSeller(TicketOffice ticketOffice) {
+    TicketSeller(TicketOffice ticketOffice) {
         this.ticketOffice = ticketOffice;
     }
 
-    public TicketOffice getTicketOffice() {
+    TicketOffice getTicketOffice() {
         return ticketOffice;
     }
 }

@@ -7,17 +7,14 @@ package com.chpark.study.theater.step01;
  * Time : 2:17 AM
  */
 
-/**
- * 소극장
- */
-public class Theater {
+class Theater {
     private TicketSeller ticketSeller;
 
-    public Theater(TicketSeller ticketSeller) {
+    Theater(TicketSeller ticketSeller) {
         this.ticketSeller = ticketSeller;
     }
 
-    public void enter(Audience audience) {
+    void enter(Audience audience) {
         // 초대장이 있는 경우
         if (audience.getBag().hasInvitation()) {
             // 초대장과 티켓이 교환되므로 티켓은 1장 줄어들지만 매출은 발생하지 않는다.
